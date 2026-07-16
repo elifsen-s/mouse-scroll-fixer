@@ -1,0 +1,47 @@
+Mouse Scroll Fixer
+*.app/
+*.o
+*.obj
+*.swiftmodule
+build/
+DerivedData/
+*.dSYM/
+
+# ---- Xcode (ileride kullanırsan) ----
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.pbxuser
+.build/
+
+# ---- Python cache / ort
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ---- macOS sistem dosyaları ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+ehthumbs.db
+Thumbs.db
+
+# ---- Editör / IDE ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Dağıtım paketleri
+*.zip
